@@ -5,18 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:paper_io"
         mc:Ignorable="d"
-        Title="Room" Height="450" Width="800">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="14*"/>
-            <ColumnDefinition Width="19*"/>
-        </Grid.ColumnDefinitions>
-        <ScrollViewer x:Name="CanvasViewer"   HorizontalScrollBarVisibility="Hidden"  VerticalScrollBarVisibility="Hidden" Grid.ColumnSpan="2">
-            <Canvas x:Name="Canvas" IsHitTestVisible="False" Height="20" Width="19">
-                <Rectangle x:Name="Player" Fill="Red" Canvas.Left="0" Canvas.Top="0" Height="20" Width="20" />
-            </Canvas>
-
-        </ScrollViewer>
-        
-    </Grid>
+        Title="Room" Height="471.951" Width="837.317">
+    <Image Name="canvas" Margin="3,3,3,3"/>
 </Window>
